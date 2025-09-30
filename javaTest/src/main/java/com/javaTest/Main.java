@@ -23,13 +23,15 @@ public class Main {
 //        double area1 = rectangle.calculateArea2();
 //        System.out.println("面积是:" + area1);
 
-        Student student = new Student();
-        student.getInfo();
-        student.setInfo("张三", "2019001", 80);
-        student.getInfo();
-        student.isPass();
-        student.setInfo("李四", "20250826", 40);
-        student.getInfo();
-        student.isPass();
+//        Student student = new Student();
+//        student.getInfo();
+//        student.setInfo("张三", "2019001", 80);
+//        student.getInfo();
+//        student.isPass();
+//        student.setInfo("李四", "20250826", 40);
+//        student.getInfo();
+//        student.isPass();
+        BankAccount bankAccount = new BankAccount();
+        bankAccount.deposit("蔡啟泰",599663,100.55);
     }
 }
