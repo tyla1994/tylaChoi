@@ -14,4 +14,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- Hive dependencies -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>3.1.0</version> <!-- 根据你的 Hive 版本调整 -->
+        </dependency>
+
+        <!-- Hadoop dependencies -->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>3.1.1</version> <!-- 根据你的 Hadoop 版本调整 -->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-hdfs</artifactId>
+            <version>3.1.1</version> <!-- 根据你的 Hadoop 版本调整 -->
+        </dependency>
+    </dependencies>
+
 </project>

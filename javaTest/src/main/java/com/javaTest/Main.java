@@ -31,7 +31,10 @@ public class Main {
 //        student.setInfo("李四", "20250826", 40);
 //        student.getInfo();
 //        student.isPass();
-        BankAccount bankAccount = new BankAccount();
-        bankAccount.deposit("蔡啟泰",599663,100.55);
+//        BankAccount bankAccount = new BankAccount();
+//        bankAccount.deposit("蔡啟泰",599663,100.55);
+
+        ReverseUDF reverseUDF= new ReverseUDF();
+        System.out.println(reverseUDF.evaluate("蔡啟泰"));
     }
 }
